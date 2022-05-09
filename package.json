@@ -1,0 +1,23 @@
+{
+  "name": "emma-motion-hotsite-sleep-conference",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "gulp watch",
+    "build": "gulp build",
+    "dev": "concurrently \"npm start\" \"npm run watch\""
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "concurrently": "^7.1.0",
+    "express": "^4.18.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "node-sass": "^7.0.1",
+    "sass": "^1.44.0"
+  }
+}

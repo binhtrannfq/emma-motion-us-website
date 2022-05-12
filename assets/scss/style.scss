@@ -194,6 +194,11 @@ footer {
   color: white;
   padding: 16px 24px;
 
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
   p + p {
     margin-top: 16px;
   }
@@ -210,7 +215,7 @@ footer {
     margin-top: 30px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-left: 24px;
     padding-right: 24px;
     text-align: center;

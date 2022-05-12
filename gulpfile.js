@@ -17,7 +17,7 @@ function browserSyncInit() {
   const files = ["**/*.html", "**/*.{js,png,jpg,jpeg,svg,gif}"];
   browserSync.init(files, {
     // DOC: http://www.browsersync.io/docs/options/
-    proxy: "http://localhost:4000",
+    proxy: "http://localhost:3000",
     // Turn off browserSync notifications
     notify: false,
     // Open the site in browser

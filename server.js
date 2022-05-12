@@ -7,5 +7,5 @@ app.get('/', function(req, res){
   res.sendfile(__dirname + '/index.html');
 });
 
-app.listen(4000); //the port you want to use
-console.log("App running at port 4000...");
+app.listen(3000); //the port you want to use
+console.log("App running at port 3000...");

@@ -85,6 +85,22 @@ html, body {
     margin-bottom: 12px;
     color: var(--blue);
   }
+
+  .button-download {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid var(--blue);
+    padding: 3px 10px;
+    border-radius: 100vh;
+    color: var(--blue);
+    vertical-align: middle;
+    margin-left: 10px;
+
+    svg {
+      margin-right: 5px;
+    }
+  }
 }
 
 /* Assets
@@ -128,63 +144,17 @@ html, body {
 ----------------------- */
 .articles {
   padding-top: 30px;
+  margin-bottom: 30px;
 
-  .item {
-    max-width: 380px;
-    margin: auto;
+  &:after {
+    content: '';
+    clear: both;
+    display: block;
+  }
 
-    & + .item {
-      margin-top: 30px;
-    }
-
-    .img {
-      margin-bottom: 30px;
-      width: 100%;
-      height: max-content;
-
-      img {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-      }
-    }
-
-    .text {
-      color: var(--purple);
-      margin-bottom: 16px;
-
-      h2 {
-        font-weight: 300;
-        margin-bottom: 12px;
-      }
-
-      p {
-        margin-bottom: 12px;
-      }
-    }
-
-    .point-item {
-      display: flex;
-      align-items: center;
-      color: var(--blue);
-
-      & + .point-item {
-        margin-top: 16px;
-      }
-
-      .number {
-        width: 30px;
-        height: 30px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white;
-        font-size: 18px;
-        background: var(--green);
-        border-radius: 100vh;
-        margin-right: 16px;
-      }
-    }
+  img {
+    width: 100%;
+    float: left;
   }
 }
 

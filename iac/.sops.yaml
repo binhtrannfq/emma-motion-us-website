@@ -1,0 +1,5 @@
+# creation rules are evaluated sequentially, the first match wins
+creation_rules:
+  - path_regex: emmaint-prod\.sops\.yaml$
+    kms: arn:aws:kms:eu-central-1:022548702091:alias/emmaint-prod-application-infrastructure-provisioning-mozilla-sops-kms-key-alias
+    pgp: BE43E7BA0E17B491438B25CA5AE82060F55605A0

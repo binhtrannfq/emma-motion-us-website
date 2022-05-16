@@ -192,7 +192,6 @@ export = async () => {
         namespace: "default",
         annotations: {
           "kubernetes.io/ingress.class": "nginx",
-          "nginx.ingress.kubernetes.io/rewrite-target": "/$2",
         },
       },
       spec: {
@@ -202,7 +201,7 @@ export = async () => {
             http: {
               paths: [
                 {
-                  path: "/(.*)",
+                  path: "/",
                   pathType: "Prefix",
                   backend: {
                     service: {

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 :root {
-  --blue: #3C4196;
+  --blue: #3c4b78;
   --purple: #693F73;
   --green: #56B48C;
   --orange: #ff9d26;
@@ -21,7 +21,7 @@ html, body {
   max-width: 600px;
   margin: auto;
   background: rgb(23,76,84);
-  background: linear-gradient(180deg, rgba(23,76,84,1) 0%, rgba(116,148,158,1) 100%);
+  background: linear-gradient(180deg, rgba(23,76,84,1) 0%, #616369 100%);
 }
 
 .section-wrapper {
@@ -32,7 +32,7 @@ html, body {
 ----------------------- */
 .page-header {
   height: 45px;
-  background: var(--orange);
+  background: var(--blue);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,15 +46,14 @@ html, body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   color: white;
   text-align: center;
 
   h1 {
     font-size: 38px;
     font-weight: 500;
-    margin-top: 0;
-    margin-bottom: 30px;
+    margin-top: 67px;
+    margin-bottom: 50px;
   }
 
   .button {
@@ -242,7 +241,7 @@ html, body {
 /* Footer
 ----------------------- */
 footer {
-  background: var(--orange);
+  background: var(--blue);
   color: white;
   padding: 16px 24px;
 
